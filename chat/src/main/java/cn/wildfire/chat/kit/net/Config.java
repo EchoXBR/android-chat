@@ -1,4 +1,4 @@
-package cn.wildfire.chat.app;
+package cn.wildfire.chat.kit.net;
 
 import android.os.Environment;
 
@@ -9,22 +9,18 @@ import android.os.Environment;
 public interface Config {
 
 //    String IM_SERVER_HOST = "wildfirechat.cn";
+//    int IM_SERVER_PORT = 80;
+//
 //    String APP_SERVER_HOST = "wildfirechat.cn";
+//    int APP_SERVER_PORT = 8888;
 
-
-    /**
-     * IM服务器
-     */
+//        String IM_SERVER_HOST = "192.168.1.160";
     String IM_SERVER_HOST = "pttserver.speedata.cn";
-//    String IM_SERVER_HOST = "192.168.1.160";
     int IM_SERVER_PORT = 8080;
 
-    /**
-     * 应用服务器
-     */
+//        String APP_SERVER_HOST = "192.168.1.4";
     String APP_SERVER_HOST = "pttserver.speedata.cn";
     int APP_SERVER_PORT = 8888;
-
 
     String ICE_ADDRESS = "turn:turn.liyufan.win:3478";
     String ICE_USERNAME = "wfchat";

@@ -121,4 +121,19 @@ dependencies {
     api 'com.google.zxing:core:3.3.3'
 
 
+    // RxJava
+    api 'io.reactivex.rxjava2:rxjava:2.0.1'
+    api 'io.reactivex.rxjava2:rxandroid:2.0.1'
+
+    // Retrofit
+    api 'com.squareup.retrofit2:retrofit:2.2.0'
+    api 'com.squareup.retrofit2:converter-gson:2.2.0'
+    api 'com.squareup.retrofit2:adapter-rxjava2:2.2.0'
+    api 'com.squareup.okhttp3:logging-interceptor:3.4.1'
+    api 'com.squareup.okhttp3:okhttp:3.4.1'
+
+
+    implementation 'com.alibaba:fastjson:1.2.58'
+
+
 }
